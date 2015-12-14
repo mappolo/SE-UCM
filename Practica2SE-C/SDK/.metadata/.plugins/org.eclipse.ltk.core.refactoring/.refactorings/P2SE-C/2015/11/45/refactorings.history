@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;P2SE-C/src/helloworld.c&apos; to &apos;P2SE-C&apos;" description="Rename resource &apos;helloworld.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/helloworld.c" name="P2SE-C" stamp="1446758670673" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;P2SE-C/src/P2SE-C&apos; to &apos;P2SE-C.c&apos;" description="Rename resource &apos;P2SE-C&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/P2SE-C" name="P2SE-C.c" stamp="1446758692591" updateReferences="true"/>
+</session>

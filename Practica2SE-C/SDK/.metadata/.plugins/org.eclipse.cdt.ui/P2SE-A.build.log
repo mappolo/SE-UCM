@@ -1,0 +1,39 @@
+
+**** Build of configuration Debug for project P2SE-A ****
+
+make all 
+Building file: ../src/P2SE-A.c
+Invoking: MicroBlaze gcc compiler
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -Wl,--no-relax -I../../peripheral_tests_bsp_0/microblaze_0/include -mxl-pattern-compare -mcpu=v8.30.a -mno-xl-soft-mul -MMD -MP -MF"src/P2SE-A.d" -MT"src/P2SE-A.d" -o"src/P2SE-A.o" "../src/P2SE-A.c"
+../src/P2SE-A.c: In function 'getNumber':
+../src/P2SE-A.c:33:4: warning: implicit declaration of function 'XUartLite_RecvByte' [-Wimplicit-function-declaration]
+../src/P2SE-A.c:35:4: warning: implicit declaration of function 'XUartLite_SendByte' [-Wimplicit-function-declaration]
+../src/P2SE-A.c:70:3: warning: implicit declaration of function 'print' [-Wimplicit-function-declaration]
+../src/P2SE-A.c: In function 'main':
+../src/P2SE-A.c:95:3: warning: implicit declaration of function 'xil_printf' [-Wimplicit-function-declaration]
+Finished building: ../src/P2SE-A.c
+' '
+Building target: P2SE-A.elf
+Invoking: MicroBlaze gcc linker
+mb-gcc -Wl,--no-relax -Wl,-T -Wl,../src/lscript.ld -L../../peripheral_tests_bsp_0/microblaze_0/lib -mxl-pattern-compare -mcpu=v8.30.a -mno-xl-soft-mul -o"P2SE-A.elf"  ./src/P2SE-A.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: P2SE-A.elf
+' '
+Invoking: MicroBlaze Print Size
+mb-size P2SE-A.elf  |tee "P2SE-A.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   7958	    332	   2104	  10394	   289a	P2SE-A.elf
+Finished building: P2SE-A.elf.size
+' '
+Invoking: Xilinx ELF Check
+elfcheck P2SE-A.elf -hw ../../Practica2SE_hw_platform/system.xml -pe microblaze_0  |tee "P2SE-A.elf.elfcheck"
+elfcheck
+Xilinx EDK 14.1 Build EDK_P.15xf
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: elfcheck -hw ../../Practica2SE_hw_platform/system.xml -pe
+microblaze_0 P2SE-A.elf 
+
+ELF file	: P2SE-A.elf
+elfcheck passed.
+Finished building: P2SE-A.elf.elfcheck
+' '
