@@ -1,0 +1,5 @@
+set -tmpdir "C:/hlocal/p3/Practica3SE/Practica3SE/pcores/teclado_v1_00_a/devl/projnav/xst/projnav.tmp"
+set -xsthdpdir "C:/hlocal/p3/Practica3SE/Practica3SE/pcores/teclado_v1_00_a/devl/projnav/xst"
+elaborate
+-ifn user_logic.prj
+-ifmt mixed

@@ -1,0 +1,43 @@
+NET teclado_0_leds_pin<0> LOC=L5;
+NET teclado_0_leds_pin<1> LOC=N2;
+NET teclado_0_leds_pin<2> LOC=M3;
+NET teclado_0_leds_pin<3> LOC=N1;
+NET teclado_0_leds_pin<4> LOC=T13;
+NET teclado_0_leds_pin<5> LOC=L15;
+NET teclado_0_leds_pin<6> LOC=J13;
+NET teclado_0_leds_pin<7> LOC=H15;
+NET "teclado_0_leds_pin<0>" FLOAT;
+NET "teclado_0_leds_pin<1>" FLOAT;
+NET "teclado_0_leds_pin<2>" FLOAT;
+NET "teclado_0_leds_pin<3>" FLOAT;
+NET "teclado_0_leds_pin<4>" FLOAT;
+NET "teclado_0_leds_pin<5>" FLOAT;
+NET "teclado_0_leds_pin<6>" FLOAT;
+NET "teclado_0_leds_pin<7>" FLOAT;
+
+NET teclado_0_switches_pin<0> LOC=P12;
+NET teclado_0_switches_pin<1> LOC=J1;
+NET teclado_0_switches_pin<2> LOC=H1;
+NET teclado_0_switches_pin<3> LOC=H3;
+#NET Switch<4> LOC=G2;
+#NET Switch<5> LOC=K15;
+#NET Switch<6> LOC=K16;
+#NET Switch<7> LOC=F15;
+NET "teclado_0_switches_pin<0>" FLOAT;
+NET "teclado_0_switches_pin<1>" FLOAT;
+NET "teclado_0_switches_pin<2>" FLOAT;
+NET "teclado_0_switches_pin<3>" FLOAT;
+#NET "Switch<4>" FLOAT;
+#NET "Switch<5>" FLOAT;
+#NET "Switch<6>" FLOAT;
+#NET "Switch<7>" FLOAT;
+
+NET Clk_pin LOC=P8;
+NET "Clk_pin" FLOAT;
+NET Rst_pin LOC=K4;
+NET "Rst_pin" FLOAT;
+
+NET RX_pin LOC=G5;
+NET "RX_pin" FLOAT;
+NET TX_pin LOC=J2;
+NET "TX_pin" FLOAT;

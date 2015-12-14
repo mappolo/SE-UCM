@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="C:\hlocal\p3\Practica3SE\Practica3SE\SDK\Practica3SE_hw_platform\system_bd.bmm" key="Practica3SE_hw_platform-bmmFile"/>
+	<item value="C:\hlocal\p3\Practica3SE\Practica3SE\SDK\hello_world_0\Debug\hello_world_0.elf" key="Practica3SE_hw_platform-microblaze_0-initElf"/>
+	<item value="C:\hlocal\p3\Practica3SE\Practica3SE\SDK\Practica3SE_hw_platform\system.bit" key="Practica3SE_hw_platform-bitFile"/>
+</section>

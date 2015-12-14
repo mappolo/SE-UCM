@@ -1,0 +1,15 @@
+##############################################################################
+## Filename:          C:\hlocal\SE\Practica3SE/drivers/teclado_v2_v1_00_a/data/teclado_v2_v2_1_0.mdd
+## Description:       Microprocessor Driver Definition
+## Date:              Mon Nov 16 11:48:35 2015 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER teclado_v2
+
+  OPTION supported_peripherals = (teclado_v2);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER

@@ -1,0 +1,10 @@
+-batch 
+-create teclado 
+-ver 1.00.a 
+-dir "C:\hlocal\SE\p3\Practica3SE\Practica3SE" 
+-lang vhdl 
+-bus plbv46 s 
+-reg 4 
+-xps 
+-ise 
+-driver 
