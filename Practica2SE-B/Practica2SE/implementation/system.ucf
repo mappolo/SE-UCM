@@ -1,0 +1,43 @@
+NET Leds<0> LOC=L5;
+NET Leds<1> LOC=N2;
+NET Leds<2> LOC=M3;
+NET Leds<3> LOC=N1;
+NET Leds<4> LOC=T13;
+NET Leds<5> LOC=L15;
+NET Leds<6> LOC=J13;
+NET Leds<7> LOC=H15;
+NET "Leds<0>" FLOAT;
+NET "Leds<1>" FLOAT;
+NET "Leds<2>" FLOAT;
+NET "Leds<3>" FLOAT;
+NET "Leds<4>" FLOAT;
+NET "Leds<5>" FLOAT;
+NET "Leds<6>" FLOAT;
+NET "Leds<7>" FLOAT;
+
+NET Switch<0> LOC=P12;
+NET Switch<1> LOC=J1;
+NET Switch<2> LOC=H1;
+NET Switch<3> LOC=H3;
+NET Switch<4> LOC=G2;
+NET Switch<5> LOC=K15;
+NET Switch<6> LOC=K16;
+NET Switch<7> LOC=F15;
+NET "Switch<0>" FLOAT;
+NET "Switch<1>" FLOAT;
+NET "Switch<2>" FLOAT;
+NET "Switch<3>" FLOAT;
+NET "Switch<4>" FLOAT;
+NET "Switch<5>" FLOAT;
+NET "Switch<6>" FLOAT;
+NET "Switch<7>" FLOAT;
+
+NET Clk_pin LOC=P8;
+NET "Clk_pin" FLOAT;
+NET Rst_pin LOC=K4;
+NET "Rst_pin" FLOAT;
+
+NET RX_pin LOC=G5;
+NET "RX_pin" FLOAT;
+NET TX_pin LOC=J2;
+NET "TX_pin" FLOAT;
